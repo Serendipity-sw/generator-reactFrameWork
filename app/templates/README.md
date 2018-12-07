@@ -15,7 +15,7 @@ react脚手架
     yo react-cpt
 
 # 注意!
-    当需要将ES6 转 ES5 时需要安装插件 yarn install -D babel-preset-es2015
+    当需要将ES6 转 ES5 时需要安装插件 yarn add -D babel-preset-es2015
     并在.babelrc文件中在 "presets":["react","env"], 修改为"presets":["es2015","react","env"]
 详情请参考[Babel 入门教程  作者：阮一峰](http://www.ruanyifeng.com/blog/2016/01/babel.html)
     
