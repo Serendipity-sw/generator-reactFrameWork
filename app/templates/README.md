@@ -4,7 +4,7 @@ react脚手架
 ## 需要电脑安装的npm插件
     npm i rimraf -g
     
-## 该脚手架可通过yeoman
+## 该脚手架可通过yeoman一键安装
   
     npm install -g yo
     
