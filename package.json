@@ -1,0 +1,61 @@
+{
+  "name": "generator-react-cpt",
+  "version": "0.1.20",
+  "description": "a scaffold generator for react component",
+  "scripts": {
+    "test": "jest",
+    "pretest": "eslint . --fix",
+    "prepublish": "nsp check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swgloomy/generator-reactFrameWork.git"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "yeoman",
+    "generator",
+    "inception",
+    "init",
+    "create",
+    "boilerplate"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^2.0.1"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "eslint": "^4.8.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^21.2.1",
+    "jest-cli": "^21.2.1",
+    "nsp": "^2.8.1",
+    "yeoman-assert": "^3.1.0",
+    "yeoman-test": "^1.7.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space/esnext",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "templates"
+    ]
+  },
+  "author": "swgloomy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swgloomy/generator-reactFrameWork/issues"
+  },
+  "homepage": "https://github.com/swgloomy/generator-reactFrameWork#readme"
+}

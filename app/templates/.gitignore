@@ -1,0 +1,16 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+.idea/*
+node_modules/
+node_modules/*
+entryBuild
+entryBuild/*
+devBuild
+devBuild/*
+.cache-loader/
+.cache-loader/*
+dist
+dist/*
+backup
+backup/*
+*/**/*.pcss.json

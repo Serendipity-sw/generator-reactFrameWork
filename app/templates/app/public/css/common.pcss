@@ -1,0 +1,23 @@
+@import "./indexVar.pcss";
+
+:global(#app) {
+  height: 100%;
+
+  button {
+    @include shaowe(black,200em);
+  }
+
+  .allHeight {
+    height: 100%;
+  }
+
+  $loveAnimal: dog, tiger, lien;
+
+  @each $icon in $loveAnimal{
+    .icon$(icon){
+      /*background: url('icons/$(icon).png');*/
+      background:#f00;
+    }
+  }
+
+}
