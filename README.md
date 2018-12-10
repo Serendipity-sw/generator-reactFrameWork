@@ -12,4 +12,4 @@
 
   
   
-# [脚手架文档](https://github.com/swgloomy/generator-reactFrameWork/blob/master/app/templates/README.md)
+# [脚手架文档](https://github.com/swgloomy/generator-reactFrameWork/tree/master/app/templates#readme)
