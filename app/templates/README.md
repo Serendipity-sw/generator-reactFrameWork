@@ -25,6 +25,7 @@ react脚手架
 3. [Sortable](https://github.com/RubaXa/Sortable) react中可拖拽插件.地址:[demo](http://rubaxa.github.io/Sortable/)
 4. [react-motion](https://github.com/chenglou/react-motion) react一些动画
 5. [react-router-transition](https://github.com/maisano/react-router-transition) react路由动画
+6. [perfect-scrollbar](https://github.com/utatti/perfect-scrollbar) perfect-scrollbar滚动条插件
 
 ~~.[react-custom-scrollbars](https://github.com/malte-wessel/react-custom-scrollbars) 滚动条插件
 需将该配置放入postcss.config.js中,且需要将其放在autoprefixer插件与postcss-modules插件中间.否则会有样式处理上的一些BUG,请勿搞乱顺序~~  弃用.当使用该插件,会导致项目打包时需要stage-1插件包, 该插件包,在webpack4中已准备弃用
