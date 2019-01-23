@@ -14,3 +14,15 @@ dist/*
 backup
 backup/*
 */**/*.pcss.json
+app/templates/node_modules/
+app/templates/node_modules/*
+app/templates/entryBuild
+app/templates/entryBuild/*
+app/templates/devBuild
+app/templates/devBuild/*
+app/templates/.cache-loader/
+app/templates/.cache-loader/*
+app/templates/dist
+app/templates/dist/*
+app/templates/backup
+app/templates/backup/*
