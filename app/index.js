@@ -46,8 +46,6 @@ module.exports = class extends Generator {
       this.log('user', this.user);
       this.log('email', this.email);
       this.log('description', this.description);
-
-      
     });
   }
 
@@ -59,9 +57,7 @@ module.exports = class extends Generator {
         user: this.user,
         email: this.email,
         description: this.description
-      }, {
-
-      }, {
+      }, {}, {
         globOptions: {
           dot: true
         }
