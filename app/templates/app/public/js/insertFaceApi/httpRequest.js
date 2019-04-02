@@ -2,9 +2,10 @@ import axios from 'axios'
 import qs from 'qs'
 import simulationData from "../simulationData/simulationData";
 import {httpRealUrl} from "../util";
+import {httpConfig} from "../productConfig/productConfig";
 
 let isDev = process.env.NODE_ENV === "development",
-    httpUrl = isDev ? 'http://localhost:8000/' : '',
+    httpUrl = isDev ? 'http://localhost:8000/' : httpConfig,
     httpTimeOut = isDev ? 3000 : 500,
     isSimulationData = true,
     isError = false,

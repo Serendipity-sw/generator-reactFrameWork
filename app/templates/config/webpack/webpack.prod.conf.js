@@ -41,7 +41,15 @@ let config = merge(baseWebpackConfig, {
                     name: "vendor",
                     priority: 10,
                     enforce: true
-                }
+                },
+              productConfig: {
+                test: /[\\/]app[\\/]public[\\/]js[\\/]productConfig[\\/]/,
+                name: "productConfig",
+                chunks: "initial",
+                priority: 20,
+                minSize: 0,
+                enforce: true
+              },
             }
         }
     },
@@ -112,7 +120,7 @@ for (let chunkName in pages) {
             collapseWhitespace: true,
             removeAttributeQuotes: true
         },
-        chunks: ['manifest', 'vendor', 'common', chunkName],
+        chunks: ['manifest', 'vendor','productConfig' ,'common', chunkName],
         hash: false,
         chunksSortMode: 'dependency'
     };
