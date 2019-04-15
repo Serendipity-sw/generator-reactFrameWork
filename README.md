@@ -1,6 +1,12 @@
 # generator-react-cpt
   yeoman react脚手架 [参考项目](https://github.com/korbinzhao/generator-vueui/tree/master/app/templates)
   
+# 脚手架发布
+  
+  npm login
+  
+  npm publish
+  
 # 脚手架使用
   npm install -g yo
 
