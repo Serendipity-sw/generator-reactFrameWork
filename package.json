@@ -1,6 +1,6 @@
 {
   "name": "generator-react-cpt",
-  "version": "0.1.40",
+  "version": "0.1.60",
   "description": "a scaffold generator for react component",
   "scripts": {
     "test": "jest",
