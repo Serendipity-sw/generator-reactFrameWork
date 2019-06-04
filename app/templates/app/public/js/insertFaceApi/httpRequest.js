@@ -114,7 +114,7 @@ let httpUrlPostAll = (urlList, successCallback, errorCallback) => {
         }),
         resultData = new Array(urlList.length)
 
-    axios.all(list).then(axios.spread(() => {
+    axios.all(list).then(axios.spread((...resultData) => {
         resultData = resultData.map(item => item.data)
         successCallback ? successCallback(resultData) : console.log('接口数据请求成功,但未处理')
     })).catch((err) => {
