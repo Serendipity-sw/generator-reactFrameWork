@@ -26,3 +26,4 @@ app/templates/dist
 app/templates/dist/*
 app/templates/backup
 app/templates/backup/*
+*.lock
