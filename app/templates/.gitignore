@@ -14,3 +14,4 @@ dist/*
 backup
 backup/*
 */**/*.pcss.json
+*.lock
