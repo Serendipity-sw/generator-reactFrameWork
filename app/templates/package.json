@@ -1,6 +1,6 @@
 {
   "name": "<%=project%>",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "<%=description%>",
   "author": "<%=user%> <<%=email%>>",
   "main": "index.js",
@@ -20,11 +20,9 @@
     "devBuildHtml": "node config/webpack/webpack.devBuildHtml.conf.js",
     "devNew": "npm run entry && npm run devBuildHtml",
     "dev": "webpack-dev-server --devtool eval --progress --colors --profile --config config/webpack/webpack.dev.conf.js",
-    "p": "set BABEL_ENV=production && webpack --progress --colors --config config/webpack/webpack.prod.conf.js",
-    "mp": "export BABEL_ENV=production && webpack --progress --colors --config config/webpack/webpack.prod.conf.js",
+    "p": "cross-env BABEL_ENV=production && webpack --progress --colors --config config/webpack/webpack.prod.conf.js",
     "start": "npm run devNew && npm run dev",
-    "build_mac": "npm run devNew && npm run mp && gulp buildTime zip",
-    "build_windows": "npm run devNew && npm run p && gulp buildTime zip",
+    "build": "npm run devNew && npm run p && gulp buildTime zip",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -55,6 +53,7 @@
     "xlsx": "^0.13.0"
   },
   "devDependencies": {
+    "cross-env": "^6.0.3",
     "autoprefixer": "^9.6.5",
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.4",
