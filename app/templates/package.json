@@ -1,6 +1,6 @@
 {
   "name": "<%=project%>",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "<%=description%>",
   "author": "<%=user%> <<%=email%>>",
   "main": "index.js",
